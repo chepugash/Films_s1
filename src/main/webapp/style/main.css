@@ -1,0 +1,83 @@
+/* BASE ELEMENTS */
+form {
+    width: 500px;
+}
+
+/* SITE ELEMENTS */
+
+/* List of books */
+.films-list {
+    margin: 0px 50px;
+}
+
+.films-list .film-card {
+    margin: 30px 0px;
+}
+
+.films-list .film-header a {
+    color: #000;
+}
+
+.films-list .films-header a:hover {
+    text-decoration: underline;
+}
+
+.films-list .film-header .film-info {
+    color: #999;
+}
+
+.films-list .film-header .film-action-icon {
+    float: right;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0px 5px;
+}
+
+.films-list .film-header .film-name {
+    display: inline-block;
+    margin: 0px;
+}
+
+.films-list .film-header .film-name:first-letter {
+    color: #000000;
+    font-size: 1.5em;
+}
+
+/* Standalone book page */
+.film-page {
+    font-size: 1.8em;
+    margin: 0px 50px;
+}
+
+.film-page .film-card {
+    margin: 5px 0px;
+}
+
+.film-page .film-description {
+    text-indent: 30px;
+}
+
+.film-page .film-field {
+    font-size: 0.7em;
+}
+
+.film-page .film-field .field-name {
+    font-weight: bold;
+}
+
+.film-page .film-field .field-value {
+}
+
+.film-page .film-header .film-name {
+    float: left;
+}
+
+.film-page .film-header .film-name:first-letter {
+    color: #000000;
+    font-size: 1.5em;
+}
+
+.global-message {
+    font-size: 1.4em;
+    font-weight: bold;
+}
